@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body {
+			
+			background-image: url(image8.jpg);
+		}
+
+		form {
+			color: white;
+			background-color: #0005;
+			padding-right: 40px;
+			padding-left: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+			width: 500px;
+			margin: 0 auto;
+
+		}
+
+		input[type="text"], input[type="password"], input[type="email"] {
+			padding: 10px;
+			margin-bottom: 20px;
+			width: 100%;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+			color: black;
+		}
+
+		input[type="submit"] {
+			background-color: 	#87CEEB;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+			color: white;
+			margin-left: 215px;
+
+		
+		}
+
+		input[type="submit"]:hover {
+			background-color: #4169E1;
+		}
+	</style>
+</head>
+<body>
+	&nbsp 	
+	<form>
+		<center><h1>𝚁𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚝𝚒𝚘𝚗 𝙵𝚘𝚛𝚖</h1></center>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
